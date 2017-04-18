@@ -1,5 +1,5 @@
 * Starting client
-* Connecting to master process on port 21585
+* Connecting to master process on port 2218
 * Analyzing classpath: 
   - /Users/j1298666/Desktop/cs362/CS362-001-SP17/projects/aburasa/assignment-1/target/test-classes
   - /Users/j1298666/Desktop/cs362/CS362-001-SP17/projects/aburasa/assignment-1/target/classes
@@ -26,9 +26,9 @@
   - Method 5
   - MethodNoException 5
   - CBranchFitnessFactory 11
-* Using seed 1492496263770
+* Using seed 1492498895264
 * Starting evolution
-* Search finished after 3s and 1 generations, 1793 statements, best individual has fitness: 0.3333333333333333
+* Search finished after 5s and 11 generations, 3588 statements, best individual has fitness: 0.3333333333333333
 * Writing sequences to pool
 * Minimizing test suite
 * Going to analyze the coverage criteria
@@ -64,13 +64,13 @@
 * Coverage of criterion CBRANCH: 100%
 * Total number of goals: 11
 * Number of covered goals: 11
-* Generated 7 tests with total length 20
+* Generated 8 tests with total length 28
 * Resulting test suite's coverage: 100% (average coverage for all fitness functions)
 * Generating assertions
-* Resulting test suite's mutation score: 38%
+* Resulting test suite's mutation score: 36%
 * Compiling and checking tests
-[MASTER] 23:18:11.392 [pool-2-thread-1] WARN  TestSuiteGenerator - JUnit checking timed out
-[MASTER] 23:18:11.397 [pool-2-thread-1] WARN  TimeController - Phase JUNIT_CHECK lasted too long, 10 seconds more than allowed.
-* Writing JUnit test case 'Unit_ESTest' to /Users/j1298666/Desktop/cs362/CS362-001-SP17/projects/aburasa/assignment-1/.evosuite/tmp_2017_04_17_23_17_40/tests
+[MASTER] 00:02:10.554 [pool-2-thread-1] WARN  TestSuiteGenerator - JUnit checking timed out
+[MASTER] 00:02:10.558 [pool-2-thread-1] WARN  TimeController - Phase JUNIT_CHECK lasted too long, 15 seconds more than allowed.
+* Writing JUnit test case 'Unit_ESTest' to /Users/j1298666/Desktop/cs362/CS362-001-SP17/projects/aburasa/assignment-1/.evosuite/tmp_2017_04_18_00_01_32/tests
 * Done!
 

@@ -6,7 +6,7 @@
     <generatedTestSuites>
         <fullNameOfTargetClass>edu.osu.cs362.Unit</fullNameOfTargetClass>
         <fullNameOfTestSuite>edu.osu.cs362.Unit_ESTest</fullNameOfTestSuite>
-        <totalEffortInSeconds>158</totalEffortInSeconds>
+        <totalEffortInSeconds>190</totalEffortInSeconds>
         <coverageTestSuites>
             <id>0</id>
             <fullPathOfTestSuite>/Users/j1298666/Desktop/cs362/CS362-001-SP17/projects/aburasa/assignment-1/.evosuite/tmp_2017_04_17_21_29_57/tests/edu/osu/cs362/Unit_ESTest.java</fullPathOfTestSuite>
@@ -591,6 +591,45 @@
             <numberOfTests>7</numberOfTests>
             <totalNumberOfStatements>20</totalNumberOfStatements>
             <effortInSeconds>25</effortInSeconds>
+        </coverageTestSuites>
+        <coverageTestSuites>
+            <id>15</id>
+            <fullPathOfTestSuite>/Users/j1298666/Desktop/cs362/CS362-001-SP17/projects/aburasa/assignment-1/.evosuite/tmp_2017_04_18_00_01_32/tests/edu/osu/cs362/Unit_ESTest.java</fullPathOfTestSuite>
+            <coverage>
+                <criterion>LineCoverage</criterion>
+                <coverageValue>1.0</coverageValue>
+            </coverage>
+            <coverage>
+                <criterion>BranchCoverage</criterion>
+                <coverageValue>1.0</coverageValue>
+            </coverage>
+            <coverage>
+                <criterion>ExceptionCoverage</criterion>
+                <coverageValue>1.0</coverageValue>
+            </coverage>
+            <coverage>
+                <criterion>WeakMutationScore</criterion>
+                <coverageValue>1.0</coverageValue>
+            </coverage>
+            <coverage>
+                <criterion>OutputCoverage</criterion>
+                <coverageValue>1.0</coverageValue>
+            </coverage>
+            <coverage>
+                <criterion>MethodCoverage</criterion>
+                <coverageValue>1.0</coverageValue>
+            </coverage>
+            <coverage>
+                <criterion>MethodNoExceptionCoverage</criterion>
+                <coverageValue>1.0</coverageValue>
+            </coverage>
+            <coverage>
+                <criterion>CBranchCoverage</criterion>
+                <coverageValue>1.0</coverageValue>
+            </coverage>
+            <numberOfTests>8</numberOfTests>
+            <totalNumberOfStatements>28</totalNumberOfStatements>
+            <effortInSeconds>32</effortInSeconds>
         </coverageTestSuites>
     </generatedTestSuites>
 </ProjectInfo>

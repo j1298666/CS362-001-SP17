@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="edu.osu.cs362.Unit_ESTest" time="0.037" tests="7" errors="0" skipped="0" failures="0">
+<testsuite name="edu.osu.cs362.Unit_ESTest" time="0.046" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -63,11 +63,12 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="test0" classname="edu.osu.cs362.Unit_ESTest" time="0.015"/>
-  <testcase name="test1" classname="edu.osu.cs362.Unit_ESTest" time="0.004"/>
-  <testcase name="test2" classname="edu.osu.cs362.Unit_ESTest" time="0.007"/>
+  <testcase name="test0" classname="edu.osu.cs362.Unit_ESTest" time="0.023"/>
+  <testcase name="test1" classname="edu.osu.cs362.Unit_ESTest" time="0.006"/>
+  <testcase name="test2" classname="edu.osu.cs362.Unit_ESTest" time="0.003"/>
   <testcase name="test3" classname="edu.osu.cs362.Unit_ESTest" time="0.003"/>
-  <testcase name="test4" classname="edu.osu.cs362.Unit_ESTest" time="0.003"/>
+  <testcase name="test4" classname="edu.osu.cs362.Unit_ESTest" time="0.002"/>
   <testcase name="test5" classname="edu.osu.cs362.Unit_ESTest" time="0.003"/>
-  <testcase name="test6" classname="edu.osu.cs362.Unit_ESTest" time="0.002"/>
+  <testcase name="test6" classname="edu.osu.cs362.Unit_ESTest" time="0.003"/>
+  <testcase name="test7" classname="edu.osu.cs362.Unit_ESTest" time="0.003"/>
 </testsuite>
