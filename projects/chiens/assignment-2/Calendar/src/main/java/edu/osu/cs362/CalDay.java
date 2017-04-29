@@ -102,7 +102,7 @@ public class CalDay {
 	 * time set placed at the beginning.
 	 */
 	public Iterator<?> iterator() {
-	    if (isValid()) {
+		if (isValid()) {
 	        return getAppts().iterator();
 	    }
 	    else {
@@ -118,7 +118,6 @@ public class CalDay {
 		if(appts!=null&&appts.size()==0)
 			this.appts = appts;
 	}
-	
 	/** Sets day */
 	private void setDay(int day) {
 	    this.day = day;
@@ -141,7 +140,7 @@ public class CalDay {
 	/** Gets size of the Appts */
 	public int getSizeAppts() {
 	    return appts.size();
-	}		
+	}
 	/** Gets day */
 	public int getDay() {
 	    return day;
