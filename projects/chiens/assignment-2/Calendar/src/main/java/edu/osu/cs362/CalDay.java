@@ -12,9 +12,7 @@ import java.util.*;
 
 
 /**
- * Stores all of the appointments of a single calendar day. It also
- * has some useful calendar-related abilities, such as the ability
- * to create a new calendar day that is incremented by a day.
+ * Lin
  * 
  * 
  * adapted from  Paul Miles
