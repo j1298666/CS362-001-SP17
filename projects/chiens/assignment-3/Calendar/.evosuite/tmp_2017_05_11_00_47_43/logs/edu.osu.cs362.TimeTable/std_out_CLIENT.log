@@ -1,0 +1,90 @@
+* Starting client
+* Connecting to master process on port 18257
+* Analyzing classpath: 
+  - /Users/j1298666/Desktop/cs362/CS362-001-SP17/projects/chiens/assignment-3/Calendar/target/classes
+* Finished analyzing classpath
+* Generating tests for class edu.osu.cs362.TimeTable
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 
+  - Line 45
+  - Branch 29
+  - Exception 0
+  - MutationFactory 82
+  - Output 6
+  - Method 3
+  - MethodNoException 3
+  - CBranchFitnessFactory 29
+* Using seed 1494488867637
+* Starting evolution
+* Search finished after 68s and 178 generations, 73659 statements, best individual has fitness: 9.142857142857142
+* Writing sequences to pool
+* Minimizing test suite
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 98%
+* Total number of goals: 45
+* Number of covered goals: 44
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 93%
+* Total number of goals: 29
+* Number of covered goals: 27
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 6
+* Number of covered goals: 6
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 98%
+* Total number of goals: 82
+* Number of covered goals: 80
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 50%
+* Total number of goals: 6
+* Number of covered goals: 3
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 93%
+* Total number of goals: 29
+* Number of covered goals: 27
+* Generated 14 tests with total length 84
+* Coverage of criterion STATEMENT: 99%
+* Total number of goals: 195
+* Number of covered goals: 193
+* Coverage of criterion ONLYBRANCH: 93%
+* Total number of goals: 28
+* Number of covered goals: 26
+* Coverage of criterion IBRANCH: 93%
+* Total number of goals: 29
+* Number of covered goals: 27
+* Coverage of criterion ONLYMUTATION: 98%
+* Total number of goals: 82
+* Number of covered goals: 80
+* Coverage of criterion MUTATION: 48%
+* Total number of goals: 82
+* Number of covered goals: 39
+* Coverage of criterion INPUT: 0%
+* Total number of goals: 16
+* Number of covered goals: 0
+* Coverage of criterion METHODTRACE: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Resulting test suite's coverage: 91% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 00:49:45.070 [pool-2-thread-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 33 seconds more than allowed.
+* Resulting test suite's mutation score: 15%
+* Compiling and checking tests
+* Writing JUnit test case 'TimeTable_ESTest' to /Users/j1298666/Desktop/cs362/CS362-001-SP17/projects/chiens/assignment-3/Calendar/.evosuite/tmp_2017_05_11_00_47_43/tests

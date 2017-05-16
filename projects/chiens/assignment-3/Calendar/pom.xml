@@ -12,6 +12,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+      <evosuiteVersion>1.0.1</evosuiteVersion>
   </properties>
 
   <dependencies>
@@ -21,6 +22,13 @@
       <version>4.12</version>
       <scope>test</scope>
     </dependency>
+
+      <dependency>
+          <groupId>org.evosuite</groupId>
+          <artifactId>evosuite-standalone-runtime</artifactId>
+          <version>${evosuiteVersion}</version>
+          <scope>test</scope>
+      </dependency>
 
     <dependency>
     	<groupId>net.sourceforge.cobertura</groupId>
@@ -37,32 +45,49 @@
  </dependencies>
 
 <build>
-<plugins>
-<plugin>
-	<groupId>org.pitest</groupId>
-	<artifactId>pitest-maven</artifactId>
-	<version>1.2.0</version>
-  	 <configuration>
-        <targetClasses> <!-- limit which classes are mutated -->
-            <param>edu.osu.cs362.Appt</param>
-	    <param>edu.osu.cs362.CalDay</param>
-	    <param>edu.osu.cs362.TimeTable</param>
-        </targetClasses>
-			<targetTests>
-			<!--A list of your tests available to be run.-->
-			    <param>edu.osu.cs362.ApptTest</param>
-			    <param>edu.osu.cs362.CalDaytest</param>
-			    <param>edu.osu.cs362.TimeTableTest</param>
-			</targetTests>
-			<avoidCallsTo><!--A List of packages, classes and methods which are to be considered outside the scope of mutation.-->
-    				<avoidCallsTo>java.io.PrintStream</avoidCallsTo>
-			</avoidCallsTo>
 
-    </configuration>
+    <pluginManagement>
+        <plugins>
+            <plugin>
+                <groupId>org.evosuite.plugins</groupId>
+                <artifactId>evosuite-maven-plugin</artifactId>
+                <version>${evosuiteVersion}</version>
+                <executions><execution>
+                    <goals> <goal> prepare </goal> </goals>
+                    <phase> process-test-classes </phase>
+                </execution></executions>
+            </plugin>
 
-</plugin>
+            <plugin>
+                <groupId>org.pitest</groupId>
+                <artifactId>pitest-maven</artifactId>
+                <version>1.2.0</version>
+                <configuration>
 
-</plugins>
+                    <avoidCallsTo><!--A List of packages, classes and methods which are to be considered outside the scope of mutation.-->
+                        <avoidCallsTo>java.io.PrintStream</avoidCallsTo>
+                    </avoidCallsTo>
+
+                </configuration>
+
+            </plugin>
+        </plugins>
+    </pluginManagement>
 
 </build>
+
+    <repositories>
+        <repository>
+            <id>EvoSuite</id>
+            <name>EvoSuite Repository</name>
+            <url>http://www.evosuite.org/m2</url>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>EvoSuite</id>
+            <name>EvoSuite Repository</name>
+            <url>http://www.evosuite.org/m2</url>
+        </pluginRepository>
+    </pluginRepositories>
 </project>
