@@ -79,9 +79,7 @@ public class TimeTableRandomTest {
 
 
 		for (int i = 0; i < NUM_TESTS; i++){
-			size = listAppts.size();
-			Random rand = new Random();
-			index = rand.nextInt(9);
+			index = random.nextInt(9);
 
 			try {
 				randomAppt = listAppts.get(index);
